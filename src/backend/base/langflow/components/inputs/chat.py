@@ -21,7 +21,6 @@ class ChatInput(ChatComponent):
     description = "Get chat inputs from the Playground."
     icon = "MessagesSquare"
     name = "ChatInput"
-    minimized = True
 
     inputs = [
         MultilineInput(
